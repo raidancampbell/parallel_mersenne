@@ -17,6 +17,7 @@ int main() {
 
 		for(int i = 0; i < 11; i++) {
 			unsigned long long p = get_next_prime();
+			test_candidate(p);
 		}
 		free (prime_array);
 		current_prime_index = 0;
